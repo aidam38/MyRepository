@@ -26,6 +26,7 @@ public class Bunky {
 		in = readFile("C:\\SoutezVProgramovani2017\\4 - Bunìèná genealogie\\" + dir).split(" ");
 		bunky = new int[in.length];
 		for (int i = 0; i < in.length; i++) {
+			//TODO: Check for right format of the file
 			bunky[i] = Integer.parseInt(in[i]);
 		}
 		
